@@ -1,5 +1,6 @@
 const cors = require("cors");
 const http = require("http");
+const { connectDB } = require("./utils/db");
 const dotenv = require("dotenv");
 const express = require("express");
 const { log } = require("./utils/logger");
@@ -49,6 +50,7 @@ switch (PROTOCOL) {
                 `HTTP listening on port ${PORT}`
             );
         });
+        connectDB();
         break;
     }
     default: {

@@ -2,6 +2,7 @@ const axios = require("axios");
 const numeral = require("numeral");
 const dotenv = require("dotenv");
 const log = require("../utils/logger");
+const { getConn } = require("../utils/db");
 
 dotenv.config();
 let { BASE_URL, API_KEY, FUNCTION_TYPE, SYMBOL_TYPE } = process.env;
@@ -92,6 +93,7 @@ module.exports = class SockService {
      */
     stockTickerPrices = async (min) => {
         try {
+            const db = getConn();
             // pushing to the loyalty db
             const result = await axios.get(
                 `${BASE_URL}/query?function=${FUNCTION_TYPE}&symbol=${SYMBOL_TYPE}&interval=${min}min&apikey=${API_KEY}`

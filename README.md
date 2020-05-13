@@ -31,9 +31,16 @@ This is a stock exchange project for rest applications using Node.js, Express.js
 PORT=7021
 PROTOCOL=http
 
+## DB connection
+MONGO_HOST = 127.0.0.1
+MONGO_PORT = 27017
+MONGO_USERNAME=""
+MONGO_PASSWORD=""
+MONGO_DB=test_db
+
 ###### Stock Exchange data
 BASE_URL= https://www.alphavantage.co
-API_KEY= C32DAOMV7UEQ7VRK
+API_KEY= XXXXXXXXXXXXXXXXXXX
 FUNCTION_TYPE=TIME_SERIES_INTRADAY
 SYMBOL_TYPE=MSFT
 ```

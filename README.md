@@ -1,11 +1,12 @@
 ## Mongoose Express Boilerplate
 
-This is an open source project to create boiler plate code set up for a simple Node JS server.
-    * Swagger has also been implemented for easier documentation.
-    * Jest set up is also there to support testing.
-    * Docker set up has been made to make life easier.
-    * Inputs to REST API can be validated here using ajv.
-    * Mongoose is here to help you with the database schema and connection.
+     This is an open source project to create boiler plate code set up for a simple Node JS server.
+     
+        * Swagger has also been implemented for easier documentation.
+        * Jest set up is also there to support testing.
+        * Docker set up has been made to make life easier.
+        * Inputs to REST API can be validated here using ajv.
+        * Mongoose is here to help you with the database schema and connection.
 
 ## What is this repository for?
 

@@ -1,0 +1,17 @@
+version: "2.1"
+
+services:
+    app:
+        image: stock_exchange
+        build: .
+        environment:
+            PORT: $PORT
+            DEBUG: $DEBUG
+            PROTOCOL: $PROTOCOL
+            BASE_URL: $BASE_URL
+            API_KEY: $API_KEY
+            SYMBOL_TYPE: $SYMBOL_TYPE
+            FUNCTION_TYPE: $FUNCTION_TYPE
+        ports:
+            - 7021:7021
+        restart: always

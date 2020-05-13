@@ -1,0 +1,37 @@
+{
+    "name": "mongoose-express-boilerplate",
+    "version": "1.0.0",
+    "description": "",
+    "main": "src/app.js",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/debrajpaul/mongoose-express-boilerplate.git"
+    },
+    "keywords": [],
+    "author": "pauldebraj7@gmail.com",
+    "license": "Apache-License",
+    "bugs": {
+        "url": "https://github.com/debrajpaul/mongoose-express-boilerplate/issues"
+    },
+    "homepage": "https://github.com/debrajpaul/mongoose-express-boilerplate#readme",
+    "scripts": {
+        "test": "jest ./src/tests/*.test.js",
+        "watch": "DEBUG=app,app:* nodemon src/app.js",
+        "start": "node src/app.js"
+    },
+    "dependencies": {
+        "ajv": "^6.12.0",
+        "axios": "^0.19.2",
+        "cors": "^2.8.5",
+        "debug": "^4.1.1",
+        "dotenv": "^8.2.0",
+        "express": "^4.17.1",
+        "numeral": "^2.0.6",
+        "swagger-jsdoc": "^4.0.0",
+        "swagger-ui-express": "^4.1.4"
+    },
+    "devDependencies": {
+        "jest": "^25.3.0",
+        "nodemon": "^2.0.2"
+    }
+}

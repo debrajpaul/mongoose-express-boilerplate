@@ -1,4 +1,4 @@
-## Stock Market
+## Mongoose Express Boilerplate
 
 This is a stock exchange project for rest applications using Node.js, Express.js and Docker.
 

@@ -20,7 +20,7 @@
         "start": "node src/app.js"
     },
     "dependencies": {
-        "ajv": "^6.12.0",
+        "ajv": "^6.12.3",
         "axios": "^0.19.2",
         "cors": "^2.8.5",
         "debug": "^4.1.1",
